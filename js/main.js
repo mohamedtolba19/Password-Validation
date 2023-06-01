@@ -8,8 +8,8 @@ eyeIcon.addEventListener("click" , (e)=>
 {
     passwordInput.type = "text"
     eyeIcon.classList.add("d-none");
-    // eyeIcon.classList.remove("d-block");
-    // eyeSlashIcon.classList.add("d-block");
+    eyeIcon.classList.remove("d-block");
+    eyeSlashIcon.classList.add("d-block");
     eyeSlashIcon.classList.remove("d-none");
    
 })
@@ -18,8 +18,8 @@ eyeSlashIcon.addEventListener("click" , (e)=>
 {
     passwordInput.type = "password"
     eyeSlashIcon.classList.add("d-none");
-    // eyeSlashIcon.classList.remove("d-block");
-    // eyeIcon.classList.add("d-block");
+    eyeSlashIcon.classList.remove("d-block");
+    eyeIcon.classList.add("d-block");
     eyeIcon.classList.remove("d-none");
    
 })
